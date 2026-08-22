@@ -1,0 +1,250 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430">
+    <stop stop-color="#050816"></stop>
+    <stop offset="0.55" stop-color="#0A1025"></stop>
+    <stop offset="1" stop-color="#080B18"></stop>
+  </linearGradient>
+
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#22D3EE"></stop>
+    <stop offset="1" stop-color="#67E8F9"></stop>
+  </linearGradient>
+
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#8B5CF6"></stop>
+    <stop offset="1" stop-color="#EC4899"></stop>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="8" result="blur"></feGaussianBlur>
+    <feMerge>
+      <feMergeNode in="blur"></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+
+  <filter id="smallGlow">
+    <feGaussianBlur stdDeviation="3" result="blur"></feGaussianBlur>
+    <feMerge>
+      <feMergeNode in="blur"></feMergeNode>
+      <feMergeNode in="SourceGraphic"></feMergeNode>
+    </feMerge>
+  </filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1200" height="430" rx="22" fill="url(#bg)"></rect>
+
+<rect x="1" y="1" width="1198" height="428" rx="21" stroke="#164E63" stroke-width="2"></rect>
+
+<!-- Grid -->
+
+<g opacity="0.12" stroke="#38BDF8">
+
+  <path d="M0 70H1200"></path>
+  <path d="M0 140H1200"></path>
+  <path d="M0 210H1200"></path>
+  <path d="M0 280H1200"></path>
+  <path d="M0 350H1200"></path>
+
+  <path d="M100 0V430"></path>
+  <path d="M200 0V430"></path>
+  <path d="M300 0V430"></path>
+  <path d="M400 0V430"></path>
+  <path d="M500 0V430"></path>
+  <path d="M600 0V430"></path>
+  <path d="M700 0V430"></path>
+  <path d="M800 0V430"></path>
+  <path d="M900 0V430"></path>
+  <path d="M1000 0V430"></path>
+  <path d="M1100 0V430"></path>
+
+</g>
+
+<!-- Decorative particles -->
+
+<g fill="#22D3EE">
+
+  <circle cx="72" cy="92" r="2"></circle>
+  <circle cx="160" cy="320" r="2"></circle>
+  <circle cx="330" cy="62" r="2"></circle>
+  <circle cx="470" cy="350" r="2"></circle>
+  <circle cx="630" cy="76" r="2"></circle>
+  <circle cx="770" cy="330" r="2"></circle>
+  <circle cx="1080" cy="90" r="2"></circle>
+  <circle cx="1140" cy="300" r="2"></circle>
+
+</g>
+
+<g fill="#EC4899">
+
+  <circle cx="510" cy="110" r="2"></circle>
+  <circle cx="700" cy="55" r="2"></circle>
+  <circle cx="1020" cy="360" r="2"></circle>
+
+</g>
+
+<!-- Left content -->
+
+<text x="70" y="82" fill="#67E8F9" font-family="monospace" font-size="18">
+  vishiv@ai-engineer:~$
+</text>
+
+<text x="70" y="145" fill="white" font-family="Arial, sans-serif" font-size="30" font-weight="600">
+  Hi, I'm 👋
+</text>
+
+<text x="70" y="205" fill="url(#cyan)" font-family="Arial, sans-serif" font-size="58" font-weight="800">
+  Vishiv Panchal
+</text>
+
+<text x="72" y="242" fill="#CBD5E1" font-family="monospace" font-size="18" letter-spacing="5">
+  AI &amp; SOFTWARE ENGINEER
+</text>
+
+<text x="72" y="278" fill="#22D3EE" font-family="monospace" font-size="15">
+  AI/ML
+</text>
+
+<text x="120" y="278" fill="#64748B" font-family="monospace" font-size="15">
+  •
+</text>
+
+<text x="140" y="278" fill="#A78BFA" font-family="monospace" font-size="15">
+  BACKEND
+</text>
+
+<text x="225" y="278" fill="#64748B" font-family="monospace" font-size="15">
+  •
+</text>
+
+<text x="245" y="278" fill="#F472B6" font-family="monospace" font-size="15">
+  MICROSERVICES
+</text>
+
+<text x="385" y="278" fill="#64748B" font-family="monospace" font-size="15">
+  •
+</text>
+
+<text x="405" y="278" fill="#4ADE80" font-family="monospace" font-size="15">
+  CLOUD
+</text>
+
+<!-- Terminal -->
+
+<rect x="70" y="310" width="500" height="88" rx="12" fill="#080D1D" stroke="#1E3A5F"></rect>
+
+<circle cx="91" cy="330" r="5" fill="#F87171"></circle>
+<circle cx="108" cy="330" r="5" fill="#FBBF24"></circle>
+<circle cx="125" cy="330" r="5" fill="#4ADE80"></circle>
+
+<text x="150" y="334" fill="#64748B" font-family="monospace" font-size="12">
+  engineering.py
+</text>
+
+<text x="90" y="362" fill="#A78BFA" font-family="monospace" font-size="13">
+  $ build()
+</text>
+
+<text x="180" y="362" fill="#CBD5E1" font-family="monospace" font-size="13">
+  → AI + scalable software
+</text>
+
+<text x="90" y="385" fill="#4ADE80" font-family="monospace" font-size="13">
+  ✓ production_ready = true
+</text>
+
+<!-- Right AI Network -->
+
+<g filter="url(#glow)">
+
+  <circle cx="870" cy="215" r="55" fill="#0EA5E9" opacity="0.08"></circle>
+
+  <circle cx="870" cy="215" r="35" fill="#22D3EE" opacity="0.12"></circle>
+
+  <circle cx="870" cy="215" r="14" fill="#67E8F9"></circle>
+
+</g>
+
+<!-- Orbit -->
+
+<ellipse cx="870" cy="215" rx="150" ry="65" transform="rotate(-15 870 215)" stroke="#22D3EE" stroke-opacity="0.45"></ellipse>
+
+<ellipse cx="870" cy="215" rx="150" ry="65" transform="rotate(35 870 215)" stroke="#A78BFA" stroke-opacity="0.4"></ellipse>
+
+<!-- Network -->
+
+<g stroke="#38BDF8" stroke-opacity="0.45">
+
+  <path d="M870 215L760 140"></path>
+  <path d="M870 215L1000 145"></path>
+  <path d="M870 215L760 300"></path>
+  <path d="M870 215L1010 305"></path>
+
+</g>
+
+<!-- Nodes -->
+
+<g filter="url(#smallGlow)">
+
+  <circle cx="760" cy="140" r="7" fill="#22D3EE"></circle>
+  <circle cx="1000" cy="145" r="7" fill="#EC4899"></circle>
+  <circle cx="760" cy="300" r="7" fill="#A78BFA"></circle>
+  <circle cx="1010" cy="305" r="7" fill="#4ADE80"></circle>
+
+</g>
+
+<!-- Node labels -->
+
+<rect x="650" y="105" width="150" height="45" rx="10" fill="#080D1D" stroke="#164E63"></rect>
+
+<text x="675" y="125" fill="#22D3EE" font-family="monospace" font-size="12">
+  AI / ML
+</text>
+
+<text x="675" y="140" fill="#94A3B8" font-family="monospace" font-size="10">
+  Deep Learning
+</text>
+
+<rect x="1000" y="110" width="150" height="45" rx="10" fill="#080D1D" stroke="#4C1D4F"></rect>
+
+<text x="1020" y="130" fill="#EC4899" font-family="monospace" font-size="12">
+  BACKEND
+</text>
+
+<text x="1020" y="145" fill="#94A3B8" font-family="monospace" font-size="10">
+  Spring Boot
+</text>
+
+<rect x="640" y="295" width="160" height="45" rx="10" fill="#080D1D" stroke="#3730A3"></rect>
+
+<text x="665" y="315" fill="#A78BFA" font-family="monospace" font-size="12">
+  MICROSERVICES
+</text>
+
+<text x="665" y="330" fill="#94A3B8" font-family="monospace" font-size="10">
+  Kafka · Redis
+</text>
+
+<rect x="1000" y="300" width="150" height="45" rx="10" fill="#080D1D" stroke="#14532D"></rect>
+
+<text x="1020" y="320" fill="#4ADE80" font-family="monospace" font-size="12">
+  CLOUD
+</text>
+
+<text x="1020" y="335" fill="#94A3B8" font-family="monospace" font-size="10">
+  Docker · K8s
+</text>
+
+<!-- Footer -->
+
+<text x="820" y="385" fill="#64748B" font-family="monospace" font-size="12">
+  IIT GUWAHATI · HCLTECH
+</text>
+
+</svg>
