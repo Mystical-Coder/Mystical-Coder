@@ -1,31 +1,50 @@
-<h1 align="center">Hi 👋, I'm Vishiv panchal</h1>
-<h3 align="center">A passionate Software Engineer from India</h3>
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mystical-coder&label=Profile%20views&color=0e75b6&style=flat" alt="mystical-coder" /> </p>
+# Hi 👋, I'm Vishiv Panchal
 
-- 🔭 I’m currently working on **RepoInsight**
+### AI & Software Engineer
 
-- 🌱 I’m currently learning **Machine learning, Deep learning**
+**M.Tech in AI & Robotics @ IIT Guwahati '26** · **Ex-HCLTech** · **Backend Engineering · AI/ML**
 
-- 💬 Ask me about **Spring boot**
-
-- 📫 How to reach me **vishiv.panchal@gmail.com**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/vishiv panchal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vishiv panchal" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/mystic-192" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mystic-192" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/mysticalcl9nc" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="mysticalcl9nc" height="30" width="40" /></a>
+<p>
+  <a href="https://github.com/Mystical-Coder">
+    <img src="https://img.shields.io/badge/GitHub-Mystical--Coder-0b0f19?style=flat-square&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/vishiv-panchal/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0b0f19?style=flat-square&logo=linkedin&logoColor=0A66C2" />
+  </a>
+  <a href="mailto:vishiv.panchal@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-0b0f19?style=flat-square&logo=gmail&logoColor=EA4335" />
+  </a>
 </p>
 
-
-
-# 💻 Tech Stack:
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-%23005C0F.svg?style=for-the-badge&logo=Thymeleaf&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Mystical-Coder&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<img src="./assets/hero.svg" width="100%" alt="Vishiv Panchal AI and Software Engineering"/>
+
+---
+
+## ⚡ About Me
+
+I am an **AI & Software Engineer** with a background in **backend engineering, machine learning, and intelligent systems**.
+
+I recently completed my **M.Tech in AI and Robotics at IIT Guwahati** and previously worked as a **Software Engineer at HCLTech**, where I worked primarily on backend systems using **Java, Spring Boot, REST APIs, microservices, Kafka, Redis and PostgreSQL**.
+
+I enjoy building practical AI systems while applying strong software engineering principles to make them scalable, maintainable, and production ready.
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   AI / ML                    SOFTWARE ENGINEERING            │
+│   ───────                    ───────────────────            │
+│   Machine Learning           Java · Spring Boot             │
+│   Deep Learning              REST APIs · Microservices      │
+│   Computer Vision            Kafka · Redis                  │
+│   NLP                        PostgreSQL · Docker            │
+│   Time Series                CI/CD                           │
+│                                                             │
+│                  BUILD → DEPLOY → IMPROVE                  │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
