@@ -1,0 +1,569 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560">
+    <stop offset="0%" stop-color="#030712"/>
+    <stop offset="50%" stop-color="#07101F"/>
+    <stop offset="100%" stop-color="#050816"/>
+  </linearGradient>
+
+  <radialGradient id="coreGlow">
+    <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.5"/>
+    <stop offset="35%" stop-color="#3B82F6" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+  </radialGradient>
+
+  <linearGradient id="cyanPurple">
+    <stop offset="0%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#8B5CF6"/>
+  </linearGradient>
+
+  <linearGradient id="pinkCyan">
+    <stop offset="0%" stop-color="#EC4899"/>
+    <stop offset="100%" stop-color="#22D3EE"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="8"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="softGlow">
+    <feGaussianBlur stdDeviation="20"/>
+  </filter>
+
+</defs>
+
+
+<!-- ===================================================== -->
+<!-- BACKGROUND -->
+<!-- ===================================================== -->
+
+<rect width="1200" height="560" rx="18" fill="url(#bg)"/>
+
+<rect
+  x="1"
+  y="1"
+  width="1198"
+  height="558"
+  rx="17"
+  stroke="#12304A"
+  stroke-width="2"
+/>
+
+
+<!-- ===================================================== -->
+<!-- GRID -->
+<!-- ===================================================== -->
+
+<g opacity="0.09" stroke="#38BDF8">
+
+  <path d="M0 70H1200"/>
+  <path d="M0 140H1200"/>
+  <path d="M0 210H1200"/>
+  <path d="M0 280H1200"/>
+  <path d="M0 350H1200"/>
+  <path d="M0 420H1200"/>
+  <path d="M0 490H1200"/>
+
+  <path d="M100 0V560"/>
+  <path d="M200 0V560"/>
+  <path d="M300 0V560"/>
+  <path d="M400 0V560"/>
+  <path d="M500 0V560"/>
+  <path d="M600 0V560"/>
+  <path d="M700 0V560"/>
+  <path d="M800 0V560"/>
+  <path d="M900 0V560"/>
+  <path d="M1000 0V560"/>
+  <path d="M1100 0V560"/>
+
+</g>
+
+
+<!-- ===================================================== -->
+<!-- TERMINAL HEADER -->
+<!-- ===================================================== -->
+
+<text
+  x="38"
+  y="38"
+  fill="#4ADE80"
+  font-family="monospace"
+  font-size="12"
+>
+  vishiv@ai-engineer:~$ init_systems()
+</text>
+
+<rect
+  x="305"
+  y="29"
+  width="7"
+  height="13"
+  fill="#22D3EE"
+  opacity="0.8"
+/>
+
+
+<!-- ===================================================== -->
+<!-- BACKGROUND PARTICLES -->
+<!-- ===================================================== -->
+
+<g fill="#22D3EE">
+
+  <circle cx="95" cy="95" r="2"/>
+  <circle cx="180" cy="410" r="1.5"/>
+  <circle cx="320" cy="170" r="2"/>
+  <circle cx="420" cy="460" r="1.5"/>
+  <circle cx="545" cy="100" r="2"/>
+  <circle cx="680" cy="455" r="2"/>
+  <circle cx="820" cy="90" r="1.5"/>
+  <circle cx="1030" cy="420" r="2"/>
+  <circle cx="1120" cy="170" r="1.5"/>
+
+</g>
+
+<g fill="#EC4899">
+
+  <circle cx="270" cy="110" r="1.5"/>
+  <circle cx="470" cy="380" r="2"/>
+  <circle cx="760" cy="130" r="2"/>
+  <circle cx="950" cy="480" r="1.5"/>
+
+</g>
+
+
+<!-- ===================================================== -->
+<!-- CENTRAL CORE GLOW -->
+<!-- ===================================================== -->
+
+<circle
+  cx="600"
+  cy="280"
+  r="220"
+  fill="url(#coreGlow)"
+  filter="url(#softGlow)"
+/>
+
+
+<!-- ===================================================== -->
+<!-- ORBITAL RINGS -->
+<!-- ===================================================== -->
+
+<ellipse
+  cx="600"
+  cy="280"
+  rx="210"
+  ry="82"
+  transform="rotate(-18 600 280)"
+  stroke="#22D3EE"
+  stroke-opacity="0.45"
+  stroke-width="1.5"
+/>
+
+<ellipse
+  cx="600"
+  cy="280"
+  rx="210"
+  ry="82"
+  transform="rotate(28 600 280)"
+  stroke="#8B5CF6"
+  stroke-opacity="0.42"
+  stroke-width="1.5"
+/>
+
+<ellipse
+  cx="600"
+  cy="280"
+  rx="165"
+  ry="62"
+  transform="rotate(72 600 280)"
+  stroke="#EC4899"
+  stroke-opacity="0.28"
+  stroke-width="1"
+/>
+
+
+<!-- ===================================================== -->
+<!-- NETWORK LINES -->
+<!-- ===================================================== -->
+
+<g stroke-width="1.4">
+
+  <!-- AI / ML -->
+
+  <path
+    d="M255 150
+       C350 150 420 205 520 250"
+    stroke="#22D3EE"
+    stroke-opacity="0.65"
+    stroke-dasharray="6 8"
+  />
+
+  <!-- Backend -->
+
+  <path
+    d="M945 150
+       C850 150 780 205 680 250"
+    stroke="#EC4899"
+    stroke-opacity="0.65"
+    stroke-dasharray="6 8"
+  />
+
+  <!-- Microservices -->
+
+  <path
+    d="M255 410
+       C350 410 420 355 520 310"
+    stroke="#A78BFA"
+    stroke-opacity="0.65"
+    stroke-dasharray="6 8"
+  />
+
+  <!-- Cloud -->
+
+  <path
+    d="M945 410
+       C850 410 780 355 680 310"
+    stroke="#22D3EE"
+    stroke-opacity="0.65"
+    stroke-dasharray="6 8"
+  />
+
+</g>
+
+
+<!-- ===================================================== -->
+<!-- CONNECTION PARTICLES -->
+<!-- ===================================================== -->
+
+<g fill="#E0F2FE" filter="url(#glow)">
+
+  <circle cx="350" cy="175" r="3"/>
+  <circle cx="425" cy="205" r="3"/>
+
+  <circle cx="850" cy="175" r="3"/>
+  <circle cx="775" cy="205" r="3"/>
+
+  <circle cx="350" cy="385" r="3"/>
+  <circle cx="425" cy="355" r="3"/>
+
+  <circle cx="850" cy="385" r="3"/>
+  <circle cx="775" cy="355" r="3"/>
+
+</g>
+
+
+<!-- ===================================================== -->
+<!-- CENTRAL AI CORE -->
+<!-- ===================================================== -->
+
+<circle
+  cx="600"
+  cy="280"
+  r="78"
+  fill="#22D3EE"
+  opacity="0.08"
+  filter="url(#glow)"
+/>
+
+<circle
+  cx="600"
+  cy="280"
+  r="58"
+  fill="#071426"
+  stroke="url(#cyanPurple)"
+  stroke-width="2"
+/>
+
+<circle
+  cx="600"
+  cy="280"
+  r="39"
+  fill="#0A1B2D"
+  stroke="#22D3EE"
+  stroke-opacity="0.5"
+/>
+
+<circle
+  cx="600"
+  cy="280"
+  r="18"
+  fill="#67E8F9"
+  filter="url(#glow)"
+/>
+
+<circle
+  cx="600"
+  cy="280"
+  r="9"
+  fill="#E0F2FE"
+/>
+
+
+<!-- ===================================================== -->
+<!-- CENTRAL LABEL -->
+<!-- ===================================================== -->
+
+<text
+  x="600"
+  y="370"
+  text-anchor="middle"
+  fill="#E2E8F0"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="18"
+  font-weight="700"
+  letter-spacing="4"
+>
+  VISHIV AI CORE
+</text>
+
+<text
+  x="600"
+  y="392"
+  text-anchor="middle"
+  fill="#64748B"
+  font-family="monospace"
+  font-size="10"
+>
+  INTELLIGENT SOFTWARE SYSTEMS
+</text>
+
+
+<!-- ===================================================== -->
+<!-- AI / ML CARD -->
+<!-- ===================================================== -->
+
+<rect
+  x="70"
+  y="105"
+  width="195"
+  height="92"
+  rx="14"
+  fill="#07101F"
+  stroke="#164E63"
+  stroke-width="1.5"
+/>
+
+<circle
+  cx="90"
+  cy="127"
+  r="4"
+  fill="#22D3EE"
+/>
+
+<text
+  x="105"
+  y="132"
+  fill="#E2E8F0"
+  font-family="Arial, sans-serif"
+  font-size="14"
+  font-weight="700"
+>
+  AI / ML
+</text>
+
+<text
+  x="90"
+  y="158"
+  fill="#67E8F9"
+  font-family="monospace"
+  font-size="10"
+>
+  Deep Learning
+</text>
+
+<text
+  x="90"
+  y="176"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  PyTorch · TensorFlow
+</text>
+
+
+<!-- ===================================================== -->
+<!-- BACKEND CARD -->
+<!-- ===================================================== -->
+
+<rect
+  x="935"
+  y="105"
+  width="195"
+  height="92"
+  rx="14"
+  fill="#07101F"
+  stroke="#4C1D4F"
+  stroke-width="1.5"
+/>
+
+<circle
+  cx="955"
+  cy="127"
+  r="4"
+  fill="#EC4899"
+/>
+
+<text
+  x="970"
+  y="132"
+  fill="#E2E8F0"
+  font-family="Arial, sans-serif"
+  font-size="14"
+  font-weight="700"
+>
+  BACKEND
+</text>
+
+<text
+  x="955"
+  y="158"
+  fill="#F472B6"
+  font-family="monospace"
+  font-size="10"
+>
+  Java · Spring Boot
+</text>
+
+<text
+  x="955"
+  y="176"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  REST · Microservices
+</text>
+
+
+<!-- ===================================================== -->
+<!-- MICROSERVICES CARD -->
+<!-- ===================================================== -->
+
+<rect
+  x="70"
+  y="365"
+  width="195"
+  height="92"
+  rx="14"
+  fill="#07101F"
+  stroke="#3730A3"
+  stroke-width="1.5"
+/>
+
+<circle
+  cx="90"
+  cy="387"
+  r="4"
+  fill="#A78BFA"
+/>
+
+<text
+  x="105"
+  y="392"
+  fill="#E2E8F0"
+  font-family="Arial, sans-serif"
+  font-size="14"
+  font-weight="700"
+>
+  MICROSERVICES
+</text>
+
+<text
+  x="90"
+  y="418"
+  fill="#A78BFA"
+  font-family="monospace"
+  font-size="10"
+>
+  Kafka · Redis
+</text>
+
+<text
+  x="90"
+  y="436"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  Event Driven Systems
+</text>
+
+
+<!-- ===================================================== -->
+<!-- CLOUD CARD -->
+<!-- ===================================================== -->
+
+<rect
+  x="935"
+  y="365"
+  width="195"
+  height="92"
+  rx="14"
+  fill="#07101F"
+  stroke="#14532D"
+  stroke-width="1.5"
+/>
+
+<circle
+  cx="955"
+  cy="387"
+  r="4"
+  fill="#4ADE80"
+/>
+
+<text
+  x="970"
+  y="392"
+  fill="#E2E8F0"
+  font-family="Arial, sans-serif"
+  font-size="14"
+  font-weight="700"
+>
+  CLOUD
+</text>
+
+<text
+  x="955"
+  y="418"
+  fill="#4ADE80"
+  font-family="monospace"
+  font-size="10"
+>
+  Docker · Kubernetes
+</text>
+
+<text
+  x="955"
+  y="436"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  Cloud Native Systems
+</text>
+
+
+<!-- ===================================================== -->
+<!-- BOTTOM -->
+<!-- ===================================================== -->
+
+<text
+  x="600"
+  y="520"
+  text-anchor="middle"
+  fill="#64748B"
+  font-family="monospace"
+  font-size="10"
+  letter-spacing="2"
+>
+  AI/ML • BACKEND • MICROSERVICES • CLOUD
+</text>
+
+</svg>
