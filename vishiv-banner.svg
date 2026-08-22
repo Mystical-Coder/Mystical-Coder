@@ -1,1 +1,583 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+
+  <linearGradient id="background" x1="0" y1="0" x2="1200" y2="430">
+    <stop offset="0%" stop-color="#050816"/>
+    <stop offset="50%" stop-color="#0B1026"/>
+    <stop offset="100%" stop-color="#080817"/>
+  </linearGradient>
+
+  <linearGradient id="nameGradient" x1="70" y1="0" x2="500" y2="0">
+    <stop offset="0%" stop-color="#67E8F9"/>
+    <stop offset="45%" stop-color="#60A5FA"/>
+    <stop offset="100%" stop-color="#F472B6"/>
+  </linearGradient>
+
+  <linearGradient id="cyanPurple" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#8B5CF6"/>
+  </linearGradient>
+
+  <radialGradient id="coreGlow">
+    <stop offset="0%" stop-color="#67E8F9" stop-opacity="0.55"/>
+    <stop offset="45%" stop-color="#3B82F6" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#050816" stop-opacity="0"/>
+  </radialGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="7" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="smallGlow">
+    <feGaussianBlur stdDeviation="3"/>
+  </filter>
+
+</defs>
+
+
+<!-- ====================================================== -->
+<!-- BACKGROUND -->
+<!-- ====================================================== -->
+
+<rect width="1200" height="430" rx="22" fill="url(#background)"/>
+
+<rect
+  x="1"
+  y="1"
+  width="1198"
+  height="428"
+  rx="21"
+  stroke="#164E63"
+  stroke-width="2"
+/>
+
+
+<!-- ====================================================== -->
+<!-- SUBTLE GRID -->
+<!-- ====================================================== -->
+
+<g opacity="0.10" stroke="#38BDF8">
+
+  <path d="M0 70H1200"/>
+  <path d="M0 140H1200"/>
+  <path d="M0 210H1200"/>
+  <path d="M0 280H1200"/>
+  <path d="M0 350H1200"/>
+
+  <path d="M100 0V430"/>
+  <path d="M200 0V430"/>
+  <path d="M300 0V430"/>
+  <path d="M400 0V430"/>
+  <path d="M500 0V430"/>
+  <path d="M600 0V430"/>
+  <path d="M700 0V430"/>
+  <path d="M800 0V430"/>
+  <path d="M900 0V430"/>
+  <path d="M1000 0V430"/>
+  <path d="M1100 0V430"/>
+
+</g>
+
+
+<!-- ====================================================== -->
+<!-- PARTICLES -->
+<!-- ====================================================== -->
+
+<g fill="#22D3EE">
+
+  <circle cx="48" cy="58" r="1.5"/>
+  <circle cx="150" cy="325" r="2"/>
+  <circle cx="295" cy="70" r="1.5"/>
+  <circle cx="455" cy="350" r="2"/>
+  <circle cx="595" cy="55" r="1.5"/>
+  <circle cx="720" cy="350" r="2"/>
+  <circle cx="1050" cy="70" r="2"/>
+  <circle cx="1140" cy="330" r="1.5"/>
+
+</g>
+
+<g fill="#EC4899">
+
+  <circle cx="390" cy="90" r="2"/>
+  <circle cx="680" cy="80" r="1.5"/>
+  <circle cx="1080" cy="250" r="2"/>
+
+</g>
+
+<g fill="#A78BFA">
+
+  <circle cx="520" cy="315" r="1.5"/>
+  <circle cx="1160" cy="115" r="1.5"/>
+
+</g>
+
+
+<!-- ====================================================== -->
+<!-- LEFT SIDE -->
+<!-- ====================================================== -->
+
+<text
+  x="70"
+  y="78"
+  fill="#4ADE80"
+  font-family="monospace"
+  font-size="15"
+>
+  vishiv@ai-engineer:~$
+</text>
+
+<text
+  x="70"
+  y="135"
+  fill="#FFFFFF"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="27"
+  font-weight="600"
+>
+  Hi, I'm 👋
+</text>
+
+
+<!-- NAME -->
+
+<text
+  x="67"
+  y="202"
+  fill="url(#nameGradient)"
+  font-family="Arial, Helvetica, sans-serif"
+  font-size="57"
+  font-weight="800"
+>
+  Vishiv Panchal
+</text>
+
+
+<!-- ROLE -->
+
+<text
+  x="72"
+  y="238"
+  fill="#E2E8F0"
+  font-family="monospace"
+  font-size="17"
+  font-weight="600"
+  letter-spacing="4"
+>
+  AI &amp; SOFTWARE ENGINEER
+</text>
+
+
+<!-- SPECIALIZATION -->
+
+<text
+  x="72"
+  y="273"
+  fill="#22D3EE"
+  font-family="monospace"
+  font-size="14"
+>
+  AI/ML
+</text>
+
+<text
+  x="128"
+  y="273"
+  fill="#64748B"
+  font-family="monospace"
+  font-size="14"
+>
+  •
+</text>
+
+<text
+  x="148"
+  y="273"
+  fill="#A78BFA"
+  font-family="monospace"
+  font-size="14"
+>
+  BACKEND
+</text>
+
+<text
+  x="235"
+  y="273"
+  fill="#64748B"
+  font-family="monospace"
+  font-size="14"
+>
+  •
+</text>
+
+<text
+  x="255"
+  y="273"
+  fill="#F472B6"
+  font-family="monospace"
+  font-size="14"
+>
+  MICROSERVICES
+</text>
+
+<text
+  x="385"
+  y="273"
+  fill="#64748B"
+  font-family="monospace"
+  font-size="14"
+>
+  •
+</text>
+
+<text
+  x="405"
+  y="273"
+  fill="#4ADE80"
+  font-family="monospace"
+  font-size="14"
+>
+  CLOUD
+</text>
+
+
+<!-- ====================================================== -->
+<!-- TERMINAL CARD -->
+<!-- ====================================================== -->
+
+<rect
+  x="70"
+  y="305"
+  width="500"
+  height="90"
+  rx="12"
+  fill="#080D1D"
+  stroke="#1E3A5F"
+  stroke-width="1.5"
+/>
+
+<circle cx="91" cy="326" r="5" fill="#F87171"/>
+<circle cx="108" cy="326" r="5" fill="#FBBF24"/>
+<circle cx="125" cy="326" r="5" fill="#4ADE80"/>
+
+<text
+  x="155"
+  y="330"
+  fill="#64748B"
+  font-family="monospace"
+  font-size="11"
+>
+  engineering.py
+</text>
+
+<text
+  x="90"
+  y="358"
+  fill="#A78BFA"
+  font-family="monospace"
+  font-size="13"
+>
+  $ build()
+</text>
+
+<text
+  x="180"
+  y="358"
+  fill="#CBD5E1"
+  font-family="monospace"
+  font-size="13"
+>
+  → intelligent systems
+</text>
+
+<text
+  x="90"
+  y="380"
+  fill="#4ADE80"
+  font-family="monospace"
+  font-size="13"
+>
+  ✓ production_ready = true
+</text>
+
+
+<!-- ====================================================== -->
+<!-- RIGHT AI CORE -->
+<!-- ====================================================== -->
+
+<circle
+  cx="890"
+  cy="215"
+  r="170"
+  fill="url(#coreGlow)"
+/>
+
+
+<!-- OUTER ORBITS -->
+
+<ellipse
+  cx="890"
+  cy="215"
+  rx="170"
+  ry="72"
+  transform="rotate(-15 890 215)"
+  stroke="#22D3EE"
+  stroke-opacity="0.38"
+  stroke-width="1"
+/>
+
+<ellipse
+  cx="890"
+  cy="215"
+  rx="170"
+  ry="72"
+  transform="rotate(30 890 215)"
+  stroke="#8B5CF6"
+  stroke-opacity="0.38"
+  stroke-width="1"
+/>
+
+<ellipse
+  cx="890"
+  cy="215"
+  rx="130"
+  ry="55"
+  transform="rotate(70 890 215)"
+  stroke="#EC4899"
+  stroke-opacity="0.25"
+  stroke-width="1"
+/>
+
+
+<!-- NETWORK CONNECTIONS -->
+
+<g stroke-width="1.2">
+
+  <path
+    d="M890 215L760 125"
+    stroke="#22D3EE"
+    stroke-opacity="0.55"
+  />
+
+  <path
+    d="M890 215L1035 125"
+    stroke="#EC4899"
+    stroke-opacity="0.55"
+  />
+
+  <path
+    d="M890 215L750 315"
+    stroke="#8B5CF6"
+    stroke-opacity="0.55"
+  />
+
+  <path
+    d="M890 215L1040 315"
+    stroke="#4ADE80"
+    stroke-opacity="0.55"
+  />
+
+</g>
+
+
+<!-- CORE GLOW -->
+
+<circle
+  cx="890"
+  cy="215"
+  r="62"
+  fill="#22D3EE"
+  opacity="0.08"
+  filter="url(#glow)"
+/>
+
+<circle
+  cx="890"
+  cy="215"
+  r="38"
+  fill="#22D3EE"
+  opacity="0.12"
+/>
+
+<circle
+  cx="890"
+  cy="215"
+  r="19"
+  fill="#67E8F9"
+  filter="url(#smallGlow)"
+/>
+
+<circle
+  cx="890"
+  cy="215"
+  r="10"
+  fill="#E0F2FE"
+/>
+
+
+<!-- ====================================================== -->
+<!-- AI NODES -->
+<!-- ====================================================== -->
+
+<g filter="url(#smallGlow)">
+
+  <circle cx="760" cy="125" r="7" fill="#22D3EE"/>
+  <circle cx="1035" cy="125" r="7" fill="#EC4899"/>
+  <circle cx="750" cy="315" r="7" fill="#A78BFA"/>
+  <circle cx="1040" cy="315" r="7" fill="#4ADE80"/>
+
+</g>
+
+
+<!-- ====================================================== -->
+<!-- NODE CARDS -->
+<!-- ====================================================== -->
+
+<rect
+  x="650"
+  y="88"
+  width="165"
+  height="55"
+  rx="10"
+  fill="#080D1D"
+  stroke="#164E63"
+/>
+
+<text
+  x="670"
+  y="111"
+  fill="#22D3EE"
+  font-family="monospace"
+  font-size="12"
+  font-weight="bold"
+>
+  AI / ML
+</text>
+
+<text
+  x="670"
+  y="130"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  Deep Learning
+</text>
+
+
+<rect
+  x="1010"
+  y="88"
+  width="155"
+  height="55"
+  rx="10"
+  fill="#080D1D"
+  stroke="#4C1D4F"
+/>
+
+<text
+  x="1030"
+  y="111"
+  fill="#EC4899"
+  font-family="monospace"
+  font-size="12"
+  font-weight="bold"
+>
+  BACKEND
+</text>
+
+<text
+  x="1030"
+  y="130"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  Java · Spring Boot
+</text>
+
+
+<rect
+  x="635"
+  y="295"
+  width="180"
+  height="55"
+  rx="10"
+  fill="#080D1D"
+  stroke="#3730A3"
+/>
+
+<text
+  x="655"
+  y="318"
+  fill="#A78BFA"
+  font-family="monospace"
+  font-size="12"
+  font-weight="bold"
+>
+  MICROSERVICES
+</text>
+
+<text
+  x="655"
+  y="337"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  Kafka · Redis
+</text>
+
+
+<rect
+  x="1010"
+  y="295"
+  width="155"
+  height="55"
+  rx="10"
+  fill="#080D1D"
+  stroke="#14532D"
+/>
+
+<text
+  x="1030"
+  y="318"
+  fill="#4ADE80"
+  font-family="monospace"
+  font-size="12"
+  font-weight="bold"
+>
+  CLOUD
+</text>
+
+<text
+  x="1030"
+  y="337"
+  fill="#94A3B8"
+  font-family="monospace"
+  font-size="10"
+>
+  Docker · Kubernetes
+</text>
+
+
+<!-- ====================================================== -->
+<!-- FOOTER -->
+<!-- ====================================================== -->
+
+<text
+  x="790"
+  y="385"
+  fill="#64748B"
+  font-family="monospace"
+  font-size="11"
+  letter-spacing="2"
+>
+  IIT GUWAHATI · HCLTECH · AI ENGINEERING
+</text>
+
+</svg>
