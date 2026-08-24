@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./vishiv-banner.svg?v=1" alt="Vishiv Panchal — AI & Software Engineer" width="100%"/>
+<img src="./vishiv-banner.svg?v=1" alt="Vishiv Panchal — Software Engineer | AI & GenAI" width="100%"/>
 
 </div>
 
-<h1 align="center">Building intelligent systems that actually ship.</h1>
+<h1 align="center">Building scalable software and intelligent AI systems.</h1>
 
 <p align="center">
 <a href="https://github.com/Mystical-Coder">GitHub</a> •
@@ -18,7 +18,7 @@
 
 <td width="38%" align="center" valign="middle">
 
-<img src="./vishiv-id-card.svg?v=1" alt="Vishiv Panchal — AI Engineer ID Badge" width="330"/>
+<img src="./vishiv-id-card.png?v=1" alt="Vishiv Panchal — Software Engineer" width="330"/>
 
 </td>
 
@@ -26,14 +26,14 @@
 
 ### ⚡ Professional Summary
 
-I am an **AI & Software Engineer** specializing in **Machine Learning, Deep Learning, Backend Engineering, and scalable software systems**. I recently completed my **M.Tech in AI and Robotics at IIT Guwahati** and previously worked as a **Software Engineer at HCLTech**, primarily focused on backend development for an enterprise **Western Union** customer environment.
+I am a **Software Engineer with an M.Tech in Robotics and AI from IIT Guwahati and 2 years of experience at HCL Technologies**. I specialize in building **AI and GenAI applications, RAG systems, machine learning solutions, and scalable Spring Boot microservices**. My experience spans backend engineering, LLM applications, computer vision, time-series ML, and production-oriented AI systems.
 
-- **Education:** M.Tech in **AI & Robotics** from **IIT Guwahati** and B.Tech in **Computer Science & Engineering** from GGSIPU.
-- **Experience:** Software Engineer at **HCLTech**, working on backend systems using Java, Spring Boot, REST APIs, microservices, Kafka, Redis, and PostgreSQL.
-- **Focus:** Building practical AI systems while combining machine learning with reliable, scalable backend engineering.
-- **Interests:** AI/ML, Deep Learning, Computer Vision, Time Series, Distributed Systems, Microservices, and Cloud Native Applications.
+* **Education:** M.Tech in **Robotics and Artificial Intelligence** from **IIT Guwahati** and B.Tech in **Computer Science and Engineering** from **GGSIPU**.
+* **Experience:** Software Engineer at **HCL Technologies**, engineering microservices and REST APIs for **Western Union's enterprise-scale international money transfer platform**.
+* **AI & GenAI:** Built production-oriented **RAG, OCR, anomaly detection, and multi-agent AI systems** using technologies including LangGraph, LangChain, PyTorch, TensorFlow, Azure OpenAI, and Pinecone.
+* **Backend:** Experienced with **Spring Boot, FastAPI, REST APIs, Microservices, Apache Kafka, Redis, PostgreSQL, MySQL, and MongoDB**.
 
-> 🎯 *Build with intelligence. Engineer for scale.*
+> 🎯 *Engineering reliable software. Building practical intelligence.*
 
 </td>
 
@@ -44,12 +44,13 @@ I am an **AI & Software Engineer** specializing in **Machine Learning, Deep Lear
 
 ## 🛠️ Tech Stack
 
-- **AI & Machine Learning:** PyTorch, TensorFlow, Keras, scikit-learn, Transformers, NumPy, Pandas, Matplotlib, Deep Learning, Computer Vision, Time Series.
-- **Backend & Languages:** Java, Python, JavaScript, SQL, Rust, Spring Boot, Spring MVC, Spring Security, Spring Data JPA, REST APIs, Microservices.
-- **Databases & Messaging:** PostgreSQL, MySQL, MongoDB, Redis, Apache Kafka.
-- **Frontend:** React, HTML, CSS, TailwindCSS.
-- **Cloud & DevOps:** Docker, Kubernetes, Jenkins, Git, GitHub, Maven, Gradle, CI/CD.
-- **Tools:** Postman, Swagger, Jira, Splunk, Linux.
+* **GenAI & Agentic AI:** LLMs, Transformers, RAG, Prompt Engineering, Agentic AI, Multi-Agent Systems, Tool Calling, MCP, Agent Skills, LangGraph, LangChain.
+* **Machine Learning:** PyTorch, TensorFlow, Scikit-learn, NLP, MLflow, Time Series, Computer Vision.
+* **Backend & Languages:** Python, Java, SQL, JavaScript, TypeScript, Spring Boot, FastAPI, RESTful APIs, Microservices, Apache Kafka.
+* **Vector Search & Databases:** FAISS, Pinecone, PostgreSQL, MySQL, MongoDB, Redis.
+* **Frontend:** React.js, Tailwind CSS, HTML, CSS.
+* **Cloud, DevOps & Observability:** Docker, Kubernetes, CI/CD, Prometheus, Grafana, Splunk.
+* **AI Platforms:** Azure OpenAI, OpenRouter.
 
 ---
 
@@ -65,31 +66,42 @@ I am an **AI & Software Engineer** specializing in **Machine Learning, Deep Lear
 
 ## Selected Works
 
-| Project | Impact |
-|:---|:---|
-| **Lightweight Gas Concentration Estimation** | Deep learning based mixed gas concentration estimation using multi-sensor time-series data, with a focus on building an accurate and lightweight model. |
-| **RepoInsight** | Developer focused system for analyzing software repositories and extracting useful project insights through automation and intelligent analysis. |
-| **Urban Ride** | Microservices based application demonstrating scalable backend architecture, service communication, and distributed application design. |
-| **Fuel EU Compliance Platform** | Full stack compliance platform using React, TypeScript, Node.js, PostgreSQL, and hexagonal architecture. |
+| Project                                       | Impact                                                                                                                                                                                                                                                                                                          |
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **AI Powered SQL Injection Security Gateway** | Real-time SQL injection detection using a **Bidirectional LSTM**, achieving **98% accuracy with 10-fold cross-validation**. Integrated with FastAPI and Spring Cloud Gateway using WebFlux GlobalFilter, Resilience4j, Redis-based IP tracking, and Caffeine caching.                                           |
+| **SupplyMind AI**                             | LangGraph-based **multi-agent supply chain intelligence platform** routing natural-language queries across Supervisor, SQL, RAG, Analytics, and Report agents. Includes LLM-powered SQL generation with human validation and AI-generated executive reports using PostgreSQL, FAISS, LangChain, and OpenRouter. |
+| **Enterprise RAG System**                     | Built a RAG system using **Azure OpenAI, GPT-3.5, LangChain, and Pinecone** for IT helpdesk automation, improving grounded answer accuracy from **78% to 90% across 500+ validated queries**.                                                                                                                   |
+| **OCR Invoice Processing Pipeline**           | Developed an invoice OCR pipeline using **PaddleOCR and OpenCV** with adaptive thresholding, noise removal, and layout detection, achieving **97% accuracy compared with 74% using Tesseract**.                                                                                                                 |
+| **Network Traffic Anomaly Detection**         | Developed an **LSTM-based anomaly detection model** using PyTorch and TensorFlow, achieving **91% detection accuracy** while reducing false positives by **28%** through time-series feature engineering and dynamic threshold tuning.                                                                          |
 
 ## 🧰 Stack
 
-`Java` `Python` `Rust` `Spring Boot` `Spring Security` `REST APIs` `Microservices` `PyTorch` `TensorFlow` `Keras` `scikit-learn` `Transformers` `Kafka` `Redis` `PostgreSQL` `MySQL` `MongoDB` `React` `TailwindCSS` `Docker` `Kubernetes` `Jenkins` `Git` `GitHub`
+`Python` `Java` `SQL` `TypeScript` `JavaScript` `Spring Boot` `FastAPI` `REST APIs` `Microservices` `Kafka` `PyTorch` `TensorFlow` `LangGraph` `LangChain` `RAG` `LLMs` `FAISS` `Pinecone` `PostgreSQL` `MySQL` `MongoDB` `Redis` `React.js` `Docker` `Kubernetes` `MLflow` `Prometheus` `Grafana` `Splunk`
 
 ## 🎓 Education
 
-**M.Tech in AI & Robotics**  
-Indian Institute of Technology Guwahati · 2026
+**M.Tech in Robotics and Artificial Intelligence**
+Indian Institute of Technology Guwahati · 2024 – 2026 · **CGPA: 7.33**
 
-**B.Tech in Computer Science & Engineering**  
-Guru Gobind Singh Indraprastha University · 2022
+**B.Tech in Computer Science and Engineering**
+Guru Gobind Singh Indraprastha University, Delhi · 2019 – 2022 · **CGPA: 9.15**
 
 ## 💼 Experience
 
-**Software Engineer · HCLTech**  
-*Sep 2022 – Aug 2024*
+### Software Engineer · HCL Technologies
 
-Backend development for an enterprise **Western Union** customer environment using **Java, Spring Boot, Spring Cloud, REST APIs, Kafka, Redis, JWT, PostgreSQL, Docker, and production monitoring tools**.
+*Sep 2022 – Aug 2024 · Noida, Uttar Pradesh*
+
+Engineered and maintained **Spring Boot microservices and RESTful APIs** for Western Union's enterprise-scale international money transfer platform, applying SOLID principles and design patterns to improve backend scalability, maintainability, and service performance.
+
+Improved API performance using **Redis caching and Cassandra data-model optimization**, reducing average response time by approximately **30%**.
+
+Also worked on **OCR, RAG, and machine learning solutions**, including invoice processing, IT helpdesk automation, and network traffic anomaly detection.
+
+## 🏆 Certifications
+
+* **Oracle Certified Java Foundations Associate**
+* **Oracle Certified Foundations Associate: Agentic AI**
 
 ## 📊 GitHub Stats
 
@@ -102,17 +114,19 @@ Backend development for an enterprise **Western Union** customer environment usi
 ### 📫 Let's Connect
 
 <a href="mailto:vishiv.panchal@gmail.com">
-<img src="https://img.shields.io/badge/Email-f472b6?style=for-the-badge&logo=gmail&logoColor=0b1020" alt="Email"/>
+<img src="https://img.shields.io/badge/EMAIL-f472b6?style=for-the-badge&logo=gmail&logoColor=0b1020" alt="Email"/>
 </a>
 
 <a href="https://github.com/Mystical-Coder">
-<img src="https://img.shields.io/badge/GitHub-22d3ee?style=for-the-badge&logo=github&logoColor=0b1020" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GITHUB-22d3ee?style=for-the-badge&logo=github&logoColor=0b1020" alt="GitHub"/>
 </a>
 
-<!-- Add your LinkedIn URL when ready -->
+<a href="https://www.linkedin.com/in/vishiv-panchal/">
+<img src="https://img.shields.io/badge/LINKEDIN-a78bfa?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
 
 <br/><br/>
 
-*⭐ Building intelligent systems — one system at a time.*
+*⭐ Engineering reliable software. Building practical intelligence.*
 
 </div>
