@@ -22,7 +22,7 @@ Software Engineer | AI and GenAI | Backend Engineering
 
 <td width="38%" align="center" valign="middle">
 
-<img src="./vishiv-id-card.png" alt="Vishiv Panchal Software Engineer" width="330"/>
+<img src="./vishiv-profile.png" alt="Vishiv Panchal Software Engineer" width="330"/>
 
 </td>
 
@@ -134,21 +134,5 @@ Oracle certification covering Java fundamentals and core programming concepts.
 Oracle certification covering foundational concepts in Agentic AI.
 
 <br/>
-
-## 📫 Connect With Me
-
-<p align="left">
-
-<a href="mailto:vishiv.panchal@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-f472b6?style=for-the-badge&logo=gmail&logoColor=0b1020" alt="Email"/>
-</a>
-
-<a href="https://github.com/Mystical-Coder">
-<img src="https://img.shields.io/badge/GITHUB-22d3ee?style=for-the-badge&logo=github&logoColor=0b1020" alt="GitHub"/>
-</a>
-
-<a href="https://www.linkedin.com/in/vishiv-panchal/">
-<img src="https://img.shields.io/badge/LINKEDIN-a78bfa?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
 
 </p>
