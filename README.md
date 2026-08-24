@@ -22,7 +22,7 @@ Software Engineer | AI and GenAI | Backend Engineering
 
 <td width="38%" align="center" valign="middle">
 
-<img src="./vishiv-profile.png" alt="Vishiv Panchal Software Engineer" width="330"/>
+<img src="./vishiv-id-card.svg" alt="Vishiv Panchal Software Engineer" width="330"/>
 
 </td>
 
